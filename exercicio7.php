@@ -1,7 +1,8 @@
 <?php
     $idade = $_GET['Idade'];
+    $nome = $_GET['Nome'];
     $dias = $idade * 365;
     
-    echo "Sua idade em dias: $dias";
+    echo "Eu sou $nome e tenho $dias dias na terra!";
 
 ?>
